@@ -12,11 +12,11 @@
 <body>
     <header class="site-header">
         <nav class="navbar container" aria-label="Điều hướng chính"><a class="brand"
-                href="index.html">NQM<span>.</span></a><button class="menu-toggle" type="button" aria-expanded="false"
+                href="index.php">NQM<span>.</span></a><button class="menu-toggle" type="button" aria-expanded="false"
                 aria-controls="main-menu">Menu</button>
-            <div class="nav-links" id="main-menu"><a href="index.html">Trang chủ</a><a href="about.html">Bài thực
-                    hành</a><a class="active" href="group.html">Giới thiệu nhóm</a><a
-                    href="https://github.com/min191" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <div class="nav-links" id="main-menu"><a href="index.php">Trang chủ</a><a href="about.php">Bài thực
+                    hành</a><a class="active" href="group.php">Giới thiệu nhóm</a><a href="https://github.com/min191"
+                    target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
         </nav>
     </header>
@@ -50,7 +50,8 @@
                         </div>
                         <div>
                             <dt>Repository nhóm</dt>
-                            <dd><a href="https://github.com/min191/final_web_php.git" target="_blank" rel="noopener noreferrer">Xem repository nhóm</a>
+                            <dd><a href="https://github.com/min191/final_web_php.git" target="_blank"
+                                    rel="noopener noreferrer">Xem repository nhóm</a>
                             </dd>
                         </div>
                     </dl>
@@ -61,31 +62,36 @@
             <div class="container">
                 <p class="eyebrow">THÀNH VIÊN</p>
                 <h2 class="section-title">Đội ngũ</h2>
-                <div class="member-list">                        <div class="member-card">
-                            <div class="small-avatar" aria-hidden="true">TĐS</div>
-                            <div>
-                                <h3>Tạ Đức Sơn</h3>
-                                <p>Mã sinh viên: 223001787</p>
-                            </div>
-                        </div>                        <div class="member-card">
-                            <div class="small-avatar" aria-hidden="true">NQM</div>
-                            <div>
-                                <h3>Nguyễn Quang Minh</h3>
-                                <p>Mã sinh viên: 222001474</p>
-                            </div>
-                        </div>                        <div class="member-card">
-                            <div class="small-avatar" aria-hidden="true">VTL</div>
-                            <div>
-                                <h3>Vũ Thùy Linh</h3>
-                                <p>Mã sinh viên: 223001753</p>
-                            </div>
-                        </div>                        <div class="member-card">
-                            <div class="small-avatar" aria-hidden="true">ĐQV</div>
-                            <div>
-                                <h3>Đỗ Quốc Vượng</h3>
-                                <p>Mã sinh viên: 222001519</p>
-                            </div>
-                        </div>                </div>
+                <div class="member-list">
+                    <div class="member-card">
+                        <div class="small-avatar" aria-hidden="true">TĐS</div>
+                        <div>
+                            <h3>Tạ Đức Sơn</h3>
+                            <p>Mã sinh viên: 223001787</p>
+                        </div>
+                    </div>
+                    <div class="member-card">
+                        <div class="small-avatar" aria-hidden="true">NQM</div>
+                        <div>
+                            <h3>Nguyễn Quang Minh</h3>
+                            <p>Mã sinh viên: 222001474</p>
+                        </div>
+                    </div>
+                    <div class="member-card">
+                        <div class="small-avatar" aria-hidden="true">VTL</div>
+                        <div>
+                            <h3>Vũ Thùy Linh</h3>
+                            <p>Mã sinh viên: 223001753</p>
+                        </div>
+                    </div>
+                    <div class="member-card">
+                        <div class="small-avatar" aria-hidden="true">ĐQV</div>
+                        <div>
+                            <h3>Đỗ Quốc Vượng</h3>
+                            <p>Mã sinh viên: 222001519</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="section">
@@ -97,12 +103,26 @@
                 <div class="topic-layout">
                     <article class="card">
                         <h3>Chức năng dự kiến</h3>
-                        <ul class="feature-grid">                                <li>Trang chủ</li>                                <li>Danh sách tin tức</li>                                <li>Tin tức theo danh mục</li>                                <li>Chi tiết bài viết</li>                                <li>Tìm kiếm bài viết</li>                                <li>Quản lý danh mục</li>                                <li>Quản lý bài viết</li>                                <li>Quản lý người dùng</li>                                <li>Đăng nhập</li>                                <li>Phân quyền quản trị viên</li>                                <li>Upload hình ảnh</li>                                <li>Responsive</li>                        </ul>
+                        <ul class="feature-grid">
+                            <li>Trang chủ</li>
+                            <li>Danh sách tin tức</li>
+                            <li>Tin tức theo danh mục</li>
+                            <li>Chi tiết bài viết</li>
+                            <li>Tìm kiếm bài viết</li>
+                            <li>Quản lý danh mục</li>
+                            <li>Quản lý bài viết</li>
+                            <li>Quản lý người dùng</li>
+                            <li>Đăng nhập</li>
+                            <li>Phân quyền quản trị viên</li>
+                            <li>Upload hình ảnh</li>
+                            <li>Responsive</li>
+                        </ul>
                     </article>
                     <aside class="card">
                         <h3>Công nghệ</h3>
                         <div class="tag-list large-tags">
-                            <span>PHP</span><span>MySQL</span><span>HTML5</span><span>CSS3</span><span>JavaScript</span>                        </div>
+                            <span>PHP</span><span>MySQL</span><span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+                        </div>
                     </aside>
                 </div>
             </div>
@@ -110,11 +130,10 @@
     </main>
     <footer class="site-footer">
         <div class="container">
-            <p>© 2026 Nhóm 5 · Lập trình Web</p>
+            <p> Nguyễn Quang Minh · Bài thực hành Lập trình Web</p>
         </div>
     </footer>
     <script src="assets/js/main.js"></script>
 </body>
 
 </html>
-
