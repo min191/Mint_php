@@ -9,7 +9,7 @@ $practiceContent = 'Nội dung thực hành sẽ được cập nhật sau.';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Bài thực hành 07 môn Lập trình Web">
     <title><?= htmlspecialchars($sessionName) ?> | Lập trình Web</title>
-    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../style.css">
 </head>
 <body>
 <header class="site-header">

@@ -21,7 +21,7 @@ for ($number = 1; $number <= 9; $number++) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Danh sách bài tập thực hành môn Lập trình Web">
     <title>Bài thực hành | Lập trình Web</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="site-header">
