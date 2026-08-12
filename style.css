@@ -478,6 +478,71 @@ a {
     align-content: start
 }
 
+.exercise-layout {
+    display: grid;
+    grid-template-columns: 1.1fr .9fr;
+    gap: 20px;
+    align-items: start
+}
+
+.exercise-card h2,
+.exercise-layout aside h2 {
+    margin-top: 0
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 700
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    font: inherit
+}
+
+.form-input:focus {
+    border-color: var(--blue);
+    outline: 3px solid rgba(59, 130, 246, .15)
+}
+
+.form-submit {
+    border: 0;
+    margin-top: 16px;
+    cursor: pointer;
+    font: inherit
+}
+
+.result-message {
+    margin-top: 22px;
+    padding: 14px 16px;
+    border-radius: 10px
+}
+
+.result-success {
+    color: #166534;
+    background: #dcfce7;
+    border: 1px solid #86efac
+}
+
+.result-error {
+    color: #991b1b;
+    background: #fee2e2;
+    border: 1px solid #fca5a5
+}
+
+.classification-list {
+    margin: 0;
+    padding-left: 20px
+}
+
+.classification-list li {
+    padding: 7px 0
+}
+
 .site-footer {
     background: var(--navy);
     color: #9aa9bf;
@@ -498,6 +563,10 @@ a {
     .topic-layout {
         grid-template-columns: 1fr;
         gap: 36px
+    }
+
+    .exercise-layout {
+        grid-template-columns: 1fr
     }
 
     .four-columns,
