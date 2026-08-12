@@ -26,6 +26,7 @@
     <main>
         <section class="hero container">
             <div class="hero-copy">
+                <p class="eyebrow">PORTFOLIO · LẬP TRÌNH WEB</p>
                 <h1>Xin chào, mình là<br><span>Nguyễn Quang Minh</span></h1>
                 <p class="lead">Sinh viên Công nghệ thông tin theo định hướng Web Development, yêu thích việc xây dựng
                     những sản phẩm web rõ ràng, hữu ích và thân thiện với người dùng.</p>
@@ -38,30 +39,33 @@
                 <div class="avatar" aria-hidden="true">NQM</div>
                 <p class="status"><span></span> Sẵn sàng học hỏi</p>
                 <h2>Web Developer</h2>
-                <p>PHP · MySQL · JavaScript</p>
+                <p class="technology-list">PHP · MySQL · JavaScript</p>
                 <div class="mini-stats">
                     <div><strong>9</strong><span>Buổi thực hành</span></div>
-                    <div><strong>4</strong><span>Dự án tiêu biểu</span></div>
+                    <div><strong>2</strong><span>Hình thức bài tập</span></div>
                 </div>
             </aside>
         </section>
 
         <section class="section section-soft">
             <div class="container">
-                <p class="eyebrow">KHÁM PHÁ</p>
-                <h2 class="section-title">Thông tin bài thực hành</h2>
-                <div class="card-grid three-columns">
-                    <article class="card"><span class="card-number">01</span>
+                <div class="section-heading">
+                    <p class="eyebrow">KHÁM PHÁ</p>
+                    <h2 class="section-title">Nội dung chính</h2>
+                    <p>Truy cập nhanh bài tập cá nhân, thông tin nhóm và mã nguồn dự án.</p>
+                </div>
+                <div class="card-grid three-columns home-card-grid">
+                    <article class="card home-card"><span class="card-number">01</span>
                         <h3>Bài thực hành</h3>
-                        <p>Tổng hợp bài tập Lập trình Web từ Buổi 01 đến Buổi 09.</p><a class="text-link"
+                        <p>Bài tập trên lớp và bài tập về nhà được sắp xếp theo từng buổi học.</p><a class="text-link"
                             href="about.php">Xem danh sách →</a>
                     </article>
-                    <article class="card"><span class="card-number">02</span>
+                    <article class="card home-card"><span class="card-number">02</span>
                         <h3>Thông tin nhóm</h3>
                         <p>Giới thiệu nhóm và đề tài Website Tin Tức dự kiến.</p><a class="text-link"
                             href="group.php">Xem chi tiết →</a>
                     </article>
-                    <article class="card"><span class="card-number">03</span>
+                    <article class="card home-card"><span class="card-number">03</span>
                         <h3>GitHub</h3>
                         <p>Theo dõi các repository và quá trình học tập của mình.</p><a class="text-link"
                             href="https://github.com/min191" target="_blank" rel="noopener noreferrer">Mở
@@ -77,7 +81,7 @@
             <p> Nguyễn Quang Minh · Bài thực hành Lập trình Web</p>
         </div>
     </footer>
-    <script src="assets/js/main.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>

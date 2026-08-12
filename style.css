@@ -93,12 +93,17 @@ a {
 }
 
 .hero {
-    min-height: 620px;
+    min-height: 650px;
     display: grid;
-    grid-template-columns: 1.25fr .75fr;
-    gap: 72px;
+    grid-template-columns: minmax(0, 1.15fr) minmax(300px, .65fr);
+    gap: clamp(42px, 7vw, 88px);
     align-items: center;
-    padding-block: 80px
+    padding-block: clamp(72px, 9vw, 110px)
+}
+
+.hero-copy {
+    max-width: 720px;
+    min-width: 0
 }
 
 .hero h1,
@@ -107,6 +112,11 @@ a {
     line-height: 1.08;
     letter-spacing: -.045em;
     font-size: clamp(2.7rem, 6vw, 5rem)
+}
+
+.hero-copy .lead {
+    margin: 0;
+    max-width: 650px
 }
 
 .eyebrow {
@@ -164,7 +174,19 @@ a {
 
 .hero-card {
     text-align: center;
+    padding: 38px 32px;
+    min-width: 0;
     transform: rotate(1deg)
+}
+
+.hero-card h2 {
+    margin: 8px 0 2px;
+    font-size: 1.55rem
+}
+
+.technology-list {
+    margin: 0;
+    color: var(--muted)
 }
 
 .avatar,
@@ -212,6 +234,14 @@ a {
     padding-top: 22px
 }
 
+.mini-stats>div {
+    padding-inline: 12px
+}
+
+.mini-stats>div+div {
+    border-left: 1px solid var(--line)
+}
+
 .mini-stats strong,
 .mini-stats span {
     display: block
@@ -243,6 +273,46 @@ a {
     font-size: clamp(2rem, 4vw, 2.8rem);
     letter-spacing: -.035em;
     margin: 0 0 32px
+}
+
+.section-heading {
+    max-width: 700px;
+    margin-bottom: 38px
+}
+
+.section-heading .section-title {
+    margin-bottom: 10px
+}
+
+.section-heading>p:last-child {
+    margin: 0;
+    color: var(--muted)
+}
+
+.home-card-grid {
+    align-items: stretch
+}
+
+.home-card {
+    display: flex;
+    flex-direction: column;
+    min-height: 245px;
+    transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease
+}
+
+.home-card:hover {
+    transform: translateY(-4px);
+    border-color: #bfd4f5;
+    box-shadow: 0 22px 55px rgba(15, 23, 42, .13)
+}
+
+.home-card p {
+    flex: 1;
+    margin-bottom: 14px
+}
+
+.home-card .text-link {
+    margin-top: auto
 }
 
 .card-grid {
@@ -496,6 +566,10 @@ a {
     font-weight: 700
 }
 
+.form-label-spaced {
+    margin-top: 16px
+}
+
 .form-input {
     width: 100%;
     padding: 12px 14px;
@@ -534,6 +608,18 @@ a {
     border: 1px solid #fca5a5
 }
 
+.document-result {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 6px 16px;
+    align-items: baseline
+}
+
+.document-result span {
+    color: #3f6212;
+    font-size: .82rem
+}
+
 .classification-list {
     margin: 0;
     padding-left: 20px
@@ -541,6 +627,74 @@ a {
 
 .classification-list li {
     padding: 7px 0
+}
+
+.message-list {
+    margin: 0;
+    padding-left: 20px
+}
+
+.section-heading-row {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 20px
+}
+
+.button-reset {
+    border: 1px solid var(--line);
+    background: var(--white);
+    cursor: pointer;
+    font: inherit
+}
+
+.table-wrapper {
+    overflow-x: auto;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    background: var(--white)
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 760px
+}
+
+.data-table th,
+.data-table td {
+    padding: 14px 16px;
+    text-align: left;
+    border-bottom: 1px solid var(--line)
+}
+
+.data-table th {
+    color: var(--muted);
+    background: #f8fafc;
+    font-size: .78rem;
+    text-transform: uppercase;
+    letter-spacing: .05em
+}
+
+.data-table tbody tr:last-child td {
+    border-bottom: 0
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 5px 9px;
+    border-radius: 999px;
+    color: #245fb8;
+    background: #eaf2ff;
+    font-size: .78rem;
+    font-weight: 700;
+    white-space: nowrap
+}
+
+.light-empty-state {
+    color: var(--muted);
+    border-color: var(--line);
+    background: var(--white)
 }
 
 .site-footer {
@@ -575,7 +729,9 @@ a {
     }
 
     .hero {
-        min-height: auto
+        grid-template-columns: minmax(0, 1fr);
+        min-height: auto;
+        padding-block: 68px
     }
 
     .hero-card {
@@ -616,7 +772,31 @@ a {
     }
 
     .hero {
-        padding-block: 60px
+        padding-block: 54px
+    }
+
+    .hero h1 {
+        font-size: clamp(2.35rem, 12vw, 3.4rem);
+        overflow-wrap: anywhere
+    }
+
+    .hero-card {
+        width: 100%;
+        padding: 30px 22px
+    }
+
+    .mini-stats>div {
+        min-width: 0;
+        padding-inline: 8px
+    }
+
+    .mini-stats span {
+        overflow-wrap: anywhere
+    }
+
+    .section-heading-row,
+    .section-heading {
+        margin-bottom: 28px
     }
 
     .two-columns,

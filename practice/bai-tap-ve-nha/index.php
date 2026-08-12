@@ -22,8 +22,20 @@
     <section class="page-hero container">
         <p class="eyebrow">BÀI TẬP VỀ NHÀ</p>
         <h1>Danh sách bài tập</h1>
-        <p>Nội dung bài tập về nhà sẽ được cập nhật sau.</p>
-        <div class="actions"><a class="button secondary" href="../../about.php">← Quay lại các loại bài tập</a></div>
+        <p>Các bài tập được thực hiện ngoài giờ học.</p>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="card-grid three-columns practice-grid">
+                <article class="card practice-card">
+                    <span class="card-number">02</span>
+                    <h2>Buổi 02</h2>
+                    <p>Quản lý và phân loại bài viết tin tức bằng PHP.</p>
+                    <a class="text-link" href="buoi-02/index.php">Mở bài tập về nhà →</a>
+                </article>
+            </div>
+            <div class="actions"><a class="button secondary" href="../../about.php">← Quay lại các loại bài tập</a></div>
+        </div>
     </section>
 </main>
 <footer class="site-footer"><div class="container"><p>Nguyễn Quang Minh · Bài tập về nhà</p></div></footer>

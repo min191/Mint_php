@@ -45,54 +45,6 @@
                         <p>Danh sách bài tập về nhà của học phần Lập trình Web.</p>
                         <a class="text-link" href="practice/bai-tap-ve-nha/index.php">Xem bài tập về nhà →</a>
                     </article>
-                    <!-- <article class="card practice-card">
-                        <span class="card-number">02</span>
-                        <h3>Buổi 02</h3>
-                        <p>Nội dung thực hành sẽ được cập nhật sau.</p>
-                        <a class="text-link" href="practice/bai-tap-tren-lop/buoi-02/index.php">Mở bài trên lớp →</a>
-                    </article>
-                    <article class="card practice-card">
-                        <span class="card-number">03</span>
-                        <h3>Buổi 03</h3>
-                        <p>Nội dung thực hành sẽ được cập nhật sau.</p>
-                        <a class="text-link" href="practice/bai-tap-tren-lop/buoi-03/index.php">Mở bài trên lớp →</a>
-                    </article>
-                    <article class="card practice-card">
-                        <span class="card-number">04</span>
-                        <h3>Buổi 04</h3>
-                        <p>Nội dung thực hành sẽ được cập nhật sau.</p>
-                        <a class="text-link" href="practice/bai-tap-tren-lop/buoi-04/index.php">Mở bài trên lớp →</a>
-                    </article>
-                    <article class="card practice-card">
-                        <span class="card-number">05</span>
-                        <h3>Buổi 05</h3>
-                        <p>Nội dung thực hành sẽ được cập nhật sau.</p>
-                        <a class="text-link" href="practice/bai-tap-tren-lop/buoi-05/index.php">Mở bài trên lớp →</a>
-                    </article>
-                    <article class="card practice-card">
-                        <span class="card-number">06</span>
-                        <h3>Buổi 06</h3>
-                        <p>Nội dung thực hành sẽ được cập nhật sau.</p>
-                        <a class="text-link" href="practice/bai-tap-tren-lop/buoi-06/index.php">Mở bài trên lớp →</a>
-                    </article>
-                    <article class="card practice-card">
-                        <span class="card-number">07</span>
-                        <h3>Buổi 07</h3>
-                        <p>Nội dung thực hành sẽ được cập nhật sau.</p>
-                        <a class="text-link" href="practice/bai-tap-tren-lop/buoi-07/index.php">Mở bài trên lớp →</a>
-                    </article>
-                    <article class="card practice-card">
-                        <span class="card-number">08</span>
-                        <h3>Buổi 08</h3>
-                        <p>Nội dung thực hành sẽ được cập nhật sau.</p>
-                        <a class="text-link" href="practice/bai-tap-tren-lop/buoi-08/index.php">Mở bài trên lớp →</a>
-                    </article>
-                    <article class="card practice-card">
-                        <span class="card-number">09</span>
-                        <h3>Buổi 09</h3>
-                        <p>Nội dung thực hành sẽ được cập nhật sau.</p>
-                        <a class="text-link" href="practice/bai-tap-tren-lop/buoi-09/index.php">Mở bài trên lớp →</a>
-                    </article> -->
                 </div>
             </div>
         </section>
