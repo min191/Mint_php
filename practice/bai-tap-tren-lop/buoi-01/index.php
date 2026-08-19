@@ -1,6 +1,7 @@
 <?php
-$sessionName = 'Buổi 01';
-$practiceContent = 'Nội dung thực hành sẽ được cập nhật sau.';
+$sessionNumber = '01';
+require dirname(__DIR__) . '/_session-index.php';
+__halt_compiler();
 ?>
 <!DOCTYPE html>
 <html lang="vi">

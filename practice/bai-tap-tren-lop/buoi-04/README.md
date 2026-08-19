@@ -1,4 +1,6 @@
-# Buổi 04
+# Buổi 04 - Thiết kế CSDL và truy vấn SQL
 
-- Nội dung thực hành: Nội dung sẽ được cập nhật sau.
-- Trạng thái bài tập: Chưa cập nhật.
+- Bài trên lớp: thiết kế ERD cho đề tài Website Tin Tức.
+- Gồm 5 bảng: `users`, `categories`, `articles`, `tags`, `article_tags`.
+- Đã xác định khóa chính, khóa ngoại, ràng buộc và dữ liệu không lưu dư thừa.
+- Bài làm: [bai-01.php](bai-01.php).

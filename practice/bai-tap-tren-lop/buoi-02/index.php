@@ -1,3 +1,8 @@
+<?php
+$sessionNumber = '02';
+require dirname(__DIR__) . '/_session-index.php';
+__halt_compiler();
+?>
 <!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -26,7 +31,7 @@
     </section>
     <section class="section">
         <div class="container">
-            <div class="card-grid two-columns practice-grid">
+            <div class="card-grid three-columns practice-grid">
                 <article class="card practice-card">
                     <span class="card-number">BÀI 01</span>
                     <h2>Xếp loại điểm</h2>
@@ -38,6 +43,12 @@
                     <h2>Tính tiền tài liệu</h2>
                     <p>Nhập tên tài liệu, số lượng và đơn giá để tính tổng số tiền.</p>
                     <a class="text-link" href="bai-02.php">Mở Bài 2 →</a>
+                </article>
+                <article class="card practice-card">
+                    <span class="card-number">BÀI 03</span>
+                    <h2>Bảng điểm sinh viên</h2>
+                    <p>Tính điểm trung bình và kết quả học tập của 3 sinh viên.</p>
+                    <a class="text-link" href="bai-03.php">Mở Bài 3 →</a>
                 </article>
             </div>
             <div class="actions">

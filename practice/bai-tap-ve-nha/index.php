@@ -33,6 +33,16 @@
                     <p>Quản lý và phân loại bài viết tin tức bằng PHP.</p>
                     <a class="text-link" href="buoi-02/index.php">Mở bài tập về nhà →</a>
                 </article>
+                <article class="card practice-card">
+                    <span class="card-number">03</span><h2>Buổi 03</h2>
+                    <p>Kiểm tra form phía server, chuẩn hóa dữ liệu và phòng chống XSS.</p>
+                    <a class="text-link" href="buoi-03/index.php">Mở bài tập về nhà →</a>
+                </article>
+                <article class="card practice-card">
+                    <span class="card-number">04</span><h2>Buổi 04</h2>
+                    <p>Thiết kế CSDL Website Tin Tức, dữ liệu mẫu và truy vấn SQL.</p>
+                    <a class="text-link" href="buoi-04/index.php">Mở bài tập về nhà →</a>
+                </article>
             </div>
             <div class="actions"><a class="button secondary" href="../../about.php">← Quay lại các loại bài tập</a></div>
         </div>
